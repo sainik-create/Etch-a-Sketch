@@ -1,4 +1,4 @@
-let grid_size = prompt("Please enter the the number of squares per side");
+let grid_size = prompt("Please enter the number of squares per side");
 
 if (Number.isFinite(parseInt(grid_size)) && parseInt(grid_size) > 0 && parseInt(grid_size) <= 100) {
   const container = document.querySelector('#container');
