@@ -34,3 +34,12 @@ function hoverRainbow() {
   const color = RGBcolor();
   this.style.backgroundColor = color;
 }
+const clearButton = document.getElementById("clearCanvas");
+clearButton.addEventListener("click", clearCanvas);
+
+function clearCanvas() {
+  const gridSquares = document.querySelectorAll(".terDivs");
+  gridSquares.forEach((square) => {
+    square.style.backgroundColor = "lightblue";
+  });
+}
