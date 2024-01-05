@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    
+
+
+  }
+  
+  .secDivs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: rows;
+  }
+  
+  .terDivs {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: lightblue;
+  }
+  
