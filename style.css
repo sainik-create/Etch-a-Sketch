@@ -1,12 +1,9 @@
 #container {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 400px;
-    
-
-
-  }
+    height: 800px;
+    width: 800px;
+}
   
   .secDivs {
     width: 100%;
@@ -18,7 +15,7 @@
   .terDivs {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid transparent;
     background-color: lightblue;
   }
   
