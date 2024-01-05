@@ -1,6 +1,6 @@
 let grid_size = prompt("Please enter the number of rows");
 
-if (Number.isFinite(parseInt(grid_size)) && parseInt(grid_size) > 0 && parseInt(grid_size) <= 10) {
+if (Number.isFinite(parseInt(grid_size)) && parseInt(grid_size) > 0 && parseInt(grid_size) <= 100) {
   const container = document.querySelector('#container');
   container.style.setProperty('--grid-size', grid_size);
 
@@ -16,5 +16,5 @@ if (Number.isFinite(parseInt(grid_size)) && parseInt(grid_size) > 0 && parseInt(
     }
   }
 } else {
-    alert("Please enter a positive integar less than or equal to 10");
+    alert("Please enter a positive integar less than or equal to 100");
 }
